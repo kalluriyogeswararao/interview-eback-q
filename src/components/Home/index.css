@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  background-color: #152850;
+  height: 100vh;
+  padding: 30px;
+}
+
+.logo-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout-button {
+  width: 90px;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 1;
+}
+
+.main-heading {
+  color: #f8fafc;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.digital-card {
+  width: 600px;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'roboto';
+}
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #152850;
+}
+
+.card-container {
+  background-color: #e0eefe;
+  width: 60%;
+  height: 80%;
+  border-radius: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-image {
+  width: 500px;
+  height: 400px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  width: 60%;
+  height: 100%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+.heading {
+  font-size: 40px;
+  color: #152850;
+  font-weight: 550;
+  margin-bottom: 25px;
+}
+
+.label {
+  font-size: 18px;
+  color: #5a7184;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+
+.label-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.input {
+  border: 1px solid #5a7184;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 15px;
+  outline: none;
+}
+
+.button {
+  background-color: #1565d8;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 45px;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+  border: none;
+}
+
+.error-msg {
+  font-size: 15px;
+  color: #ff0b37;
+  margin-top: 10px;
+  text-align: center;
+}
